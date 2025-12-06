@@ -133,7 +133,7 @@
       <input type="email" id="email" name="email" placeholder="exemplo@empresa.com" required>
 
       <button type="submit" class="btn"> Enviar Solicitação</button>
-    <button type="button" class="btn btn-voltar" onclick="window.location.href='http://localhost/Help_Desk/login.php'">Voltar ao Login
+    <button type="button" class="btn btn-voltar" onclick="window.location.href='../login.php'">Voltar ao Login
     </button>
     </form>
   </div>

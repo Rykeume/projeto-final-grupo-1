@@ -144,7 +144,7 @@
     </form>
 
     <div class="footer-text">
-      <p>Esqueceu seu acesso? <a href="http://localhost/Help_Desk/Recuperar_acesso/recuperacao.php">Clique aqui</a></p>
+      <p>Esqueceu seu acesso? <a href="../Recuperar_acesso/recuperacao.php">Clique aqui</a></p>
     </div>
   </div>
 

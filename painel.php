@@ -102,7 +102,7 @@ function mostrarSecao(secao) {
     <a href="#" onclick="mostrarSecao('notificacoes')">🔔 Notificações</a>
     <a href="#" onclick="mostrarSecao('meus')">📋 Meus Chamados</a>
     <a href="#" onclick="mostrarSecao('perfil')">👤 Meu Perfil</a>
-    <a href="http://localhost/Help_Desk/login.php" onclick="alert('Sessão encerrada!')">🚪 Sair</a>
+    <a href="./login.php" onclick="alert('Sessão encerrada!')">🚪 Sair</a>
 </nav>
 
 <main>
@@ -264,7 +264,7 @@ function mostrarSecao(secao) {
       const tipo = item.dataset.tipo;
 
       // Redireciona para a página de abertura de chamado
-      window.location.href = `http://localhost/Help_Desk/Seleção%20de%20chamados/?categoria=${tipo}`;
+      window.location.href = `./chamados/index.php?categoria=${tipo}`;
     });
   });
 </script>
